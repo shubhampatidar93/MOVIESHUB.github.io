@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+title{
+    color:white;
+}
+.navbar{
+    background-color:red;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;  
+}
+.navbar a{
+    color: white;
+    text-decoration: none;
+    padding: 14px 20px;
+    display:inline;
+    text-align: right;
+    font-size: 20px;
+    font-weight: bold;
+}
+.navbar a:hover{
+    background-color:turquoise;
+    
+}
+.navbar .logo{
+    font-size: 40px;
+    font-weight: bold;
+    
+}
+.navbar .menu{
+    display: flex;
+    margin-left: auto;
+}
+body{
+    background-color: black;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+h1{
+    color:white;
+    background-color: red; 
+    border: 2px solid red;
+    padding: 0px;
+    margin: 0px;
+    margin-bottom:30px;
+    margin-top: 30px;
+}
+h2{
+    color:white;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+address{
+    color: white;
+    background-color: red; 
+    border: 2px solid red;
+    padding: 0px;
+    margin: 0px;
+    margin-top: 20px;
+}
+
+img{
+    width: 200px;
+    height: 300px;
+    border: 3px solid white;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+.action{
+    border: 0px solid white;
+    border-radius: 10px;
+    margin: 20px;
+    background-color:slategray;
+}
+.horror{
+    border: 0px solid white;
+    border-radius: 10px;
+    margin: 20px;
+    background-color:dimgray;
+}
+.comedy{
+    border: 0px solid white;
+    border-radius: 10px;
+    margin: 20px;
+    background-color:slategrey;
+}
+.Sci-fi{
+    border: 0px solid white;
+    border-radius: 10px;
+    margin: 20px;
+    background-color:dimgrey;
+}
+.image-container{
+    /* display: flex; */
+    gap: 10px;
+}
+.hover-effect{
+    transition: transform 0.3s ease;
+}
+.hover-effect:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
